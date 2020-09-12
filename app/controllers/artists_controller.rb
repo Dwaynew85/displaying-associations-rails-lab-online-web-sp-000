@@ -4,6 +4,7 @@ class ArtistsController < ApplicationController
   end
 
   def show
+    binding.pry
     @artist = Artist.find(artist_params)
   end
 
