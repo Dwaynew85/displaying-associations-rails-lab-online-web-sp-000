@@ -7,8 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 nas = Artist.create(name: "Nas")
 nas.songs.build(title: "Illmatic")
-nas.save 
+nas.save
 back = Song.create(title: "Lean Back")
 back.artist = Artist.new(name: "Fat Joe")
-back.save 
+back.save
 Artist.last.songs.build(title: "Big Pun")
